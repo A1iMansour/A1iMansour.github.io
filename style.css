@@ -6,15 +6,23 @@
   }
  
   .topnav a {
-    float: right;
     
+   
+    text-align: center;
+    padding:1vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color:white
+    
+  }
+  #logos a{
     text-align: center;
     padding: 0.5vw 1vw;
     text-decoration: none;
     font-size: 1.5vw;
     color:white
-  }
   
+  }
   
   #options a:hover {
     color: rgb(34, 164, 168);
@@ -28,7 +36,7 @@
   
   #Toplogo:hover{
   
-      background-color: #000000 !important;
+    color: rgb(34, 164, 168);
    
   }
   #father{
