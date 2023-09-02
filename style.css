@@ -56,7 +56,7 @@ section{
     object-fit: fill;
   }
   .About{
-    background-color:  rgb(134, 192, 196);
+    background-color:  rgb(18, 18, 19);
   }
   .Project{
     overflow: hidden;
@@ -68,7 +68,7 @@ section{
     position: relative;
   }
   .project-image{
-    opacity: 0.4;
+    opacity: 0.3;
     position: absolute;
     left: 0;
     top: 0;
@@ -87,6 +87,13 @@ section{
       font-size: 2.6vw;
       
   }
+  #father2{
+    border-bottom:0.25vw solid  rgb(163, 144, 144);
+    margin-bottom: -1vw;
+    color: white;
+    font-size: 2.6vw;
+    
+}
   .button {
     display: inline-block;
     border-radius: 8px;
@@ -122,3 +129,14 @@ section{
       opacity: 1;
       right:0;
   }
+  .listing{
+    list-style: none;
+    font-size:1.2vw;
+    padding-top: 4%;
+    
+  }
+  .listing p{
+    display: inline-block;
+  }
+
+  
