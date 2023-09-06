@@ -83,6 +83,10 @@ section{
    color: rgb(0, 0, 0);
    
   }
+  .Contact{
+    overflow: hidden;
+    position: relative;
+  }
   #father{
       border-bottom:0.25vw solid  rgb(0, 0, 0);
       margin-bottom: -1vw;
