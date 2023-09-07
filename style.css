@@ -58,6 +58,20 @@ section{
     height: 100%;
     object-fit: cover;
   }
+  #arrow {
+    z-index: 10;
+    font-size:25px;
+    position: fixed;
+    left: 95%;
+    bottom: 10%;
+    text-decoration: none; 
+    color: white; 
+    transform: rotate(-90deg);
+
+  }
+  #arrow:hover{
+    color: aquamarine;
+  }
   .About{
     background-color:  rgb(18, 18, 19);
   }
