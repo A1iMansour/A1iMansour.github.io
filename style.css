@@ -77,11 +77,14 @@ section{
   }
   .About{
     background-color:  rgb(18, 18, 19);
+   
   }
   .Project{
     overflow: hidden;
     position: relative;
-
+    background-color:  rgb(223, 223, 236);
+    /*rgb(34, 32, 32);*/
+    height: auto;
    
   }  
   .project-context{
@@ -96,15 +99,20 @@ section{
     height: 100%;
   }
   .projects-box{
+    cursor: pointer;
     margin-bottom: 10px;
     border: solid;
     padding:10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    
+    margin-right: 40px;
     border-width: medium;
     box-sizing: border-box;
-    border-color:rgb(7, 60, 77);
-    background-color: rgb(59, 59, 66);
+    border-color:rgb(8, 32, 82);
+    background-color:rgb(39, 39, 39);
+  
+  }
+  .projects-box:hover{
+    opacity: 0.3;
   }
   #Toplogo:hover{
   
@@ -125,7 +133,7 @@ section{
   #father2{
     border-bottom:0.25vw solid  rgb(163, 144, 144);
     margin-bottom: -1vw;
-    color: white;
+    color:rgb(33, 78, 112);
     font-size: 2.6vw;
     
 }
