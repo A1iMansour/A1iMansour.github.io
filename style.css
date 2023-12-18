@@ -1,13 +1,15 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
+  width: 100vw;
   overflow-x: hidden;
   margin-right: 0;
 }
 section{
+  width: 100vw;
   display: block;
   height: auto;
-  width: 100vw;
+  
 }
 
 
